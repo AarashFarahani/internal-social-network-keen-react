@@ -1,0 +1,28 @@
+{
+  "name": "@keen/lib",
+  "version": "0.1.0",
+  "description": "Now I’m the model of a modern major general / The venerated Virginian veteran whose men are all / Lining up, to put me up on a pedestal / Writin’ letters to relatives / Embellishin’ my elegance and eloquence / But the elephant is in the room / The truth is in ya face when ya hear the British cannons go / BOOM",
+  "keywords": [],
+  "license": "ISC",
+  "main": "lib/lib.js",
+  "directories": {
+    "keen-store": "keen-store",
+    "test": "__tests__"
+  },
+  "files": [
+    "keen-store"
+  ],
+  "scripts": {
+    "storybook": "start-storybook -p 9009",
+    "build-lib": "babel ./ — out-dir lib",
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "dependencies": {
+    "@babel/cli": "^7.10.3",
+    "@babel/core": "^7.10.3",
+    "@storybook/react": "^5.3.19",
+    "babel-loader": "^8.1.0",
+    "react": "^16.8.0",
+    "react-dom": "^16.8.0"
+  }
+}
